@@ -1,0 +1,8 @@
+create screen 
+controllable pong
+self moving pong
+ball that moves
+detect collision with wall and bounce
+detect collision with paddle
+detect collision outside the screen
+update score
