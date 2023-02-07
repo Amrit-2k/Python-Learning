@@ -7,8 +7,8 @@ account_sid = ""
 auth_token = ""
 
 parameters = {
-    "lat": -36.848461,
-    "lon": -174.763336,
+    "lat": "",
+    "lon": "",
     "appid": api_key,
     "exclude": "current,minutely,daily"
 }
