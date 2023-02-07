@@ -18,9 +18,9 @@ window.config(padx=50, pady=50, bg=BACKGROUND_COLOR)
 
 #flashcard
 try:
-    data = pandas.read_csv("flash-card-project-start/data/words_to_learn.csv")
+    data = pandas.read_csv("flash-card-project/data/words_to_learn.csv")
 except FileNotFoundError:
-    original_data = pandas.read_csv("flash-card-project-start/data/french_words.csv")
+    original_data = pandas.read_csv("flash-card-project/data/french_words.csv")
     print(original_data)
     to_learn = original_data.to_dict(orient="records")
 else:

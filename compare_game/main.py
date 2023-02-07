@@ -51,3 +51,8 @@ def game():
 
 
 game()
+#how to git commit
+#how to git push
+#how to git pull
+#how to git merge
+#how to git branch

@@ -1,16 +1,13 @@
-
 import requests
 from datetime import datetime
-
-
 
 GENDER = "Male"
 WEIGHT_KG = 75
 HEIGHT_CM = 175
 AGE = 23
 
-APP_ID = "fe996a15"
-API_ID = "1ac1ed2d1fae2a74ac2115022a4f6320"
+APP_ID = ""
+API_ID = ""
 
 parameter = {
     "query": input("Which exercise you did? "),
@@ -38,7 +35,7 @@ result = response.json()
 
 today_date = datetime.now().strftime("%d/%m/%Y")
 now_time = datetime.now().strftime("%X")
-sheet_url = "https://api.sheety.co/be64346ee3d1115d4ff84148f53ae7c0/myWorkouts/workouts"
+sheet_url = ""
 
 for exercise in result["exercises"]:
     sheet_inputs = {
@@ -52,13 +49,4 @@ for exercise in result["exercises"]:
     }
 
     sheet_response = requests.post(sheet_url, json=sheet_inputs)
-#Basic Authentication
-sheet_response = requests.post(
-  sheet_url, 
-  json=sheet_inputs, 
-  auth=(
-      "amrit", 
-      "asdsamd123",
-  )
-)
 

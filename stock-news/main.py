@@ -1,20 +1,20 @@
 import requests
 from twilio.rest import Client
 
-VIRTUAL_TWILIO_NUMBER = "+13858327824"
-VERIFIED_NUMBER = "+64220521226"
-TWILIO_SID = "ACc23acda91e8572a066be7da918aae910"
-TWILIO_AUTH_TOKEN = "a6d14ce87a8eb64a9a916a6968616046"
+VIRTUAL_TWILIO_NUMBER = ""
+VERIFIED_NUMBER = ""
+TWILIO_SID = ""
+TWILIO_AUTH_TOKEN = ""
 
 
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
-STOCK_ENDPOINT = "https://www.alphavantage.co/query"
-STOCK_API = "IQ2M9LWXYBA5M9XO"
+STOCK_ENDPOINT = ""
+STOCK_API = ""
 
-NEWS_API= "01383138849745e993d01ed8a6c8c471"
-NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
+NEWS_API= ""
+NEWS_ENDPOINT = ""
 
 
 news_parameters = {

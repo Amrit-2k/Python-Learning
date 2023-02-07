@@ -50,10 +50,4 @@ while is_game_on:
         ball.reset_position()
         scoreboard.r_point()
 
-  
-    
-    
-
-
-
 screen.exitonclick()

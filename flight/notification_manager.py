@@ -6,8 +6,8 @@ TWILIO_VIRTUAL_NUMBER = "+13858327824"
 TWILIO_VERIFIED_NUMBER = "+64220521226"
 
 MAIL_PROVIDER_SMTP_ADDRESS =  "smtp.gmail.com"
-MY_EMAIL = "pythontester630@gmail.com"
-MY_PASSWORD = "pythontester630@gmail.com"
+MY_EMAIL = ""
+MY_PASSWORD = ""
 
 
 class NotificationManager:

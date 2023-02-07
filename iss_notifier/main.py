@@ -5,11 +5,11 @@ import time
 
 MY_LAT = -152.6735 # Your latitude
 MY_LONG = -22.0251 # Your longitude
-MY_EMAIL = 'pythontester630@gmail.com'
-MY_PASSWORD = 'tupdglgcdpnhohme'
+MY_EMAIL = ""
+MY_PASSWORD = ""
 #yahoo account
-yahoo_username = 'amritmann1@yahoo.com'
-yahoo_password = 'Raman123'
+yahoo_username = ""
+yahoo_password = ""
 
 def is_iss_overhead():
     response = requests.get(url="http://api.open-notify.org/iss-now.json")

@@ -1,7 +1,7 @@
 import requests
 import datetime
-USERNAME = "amaan"
-TOKEN = "gdsf3rdfs42wf4wfsd4a"
+USERNAME = ""
+TOKEN = ""
 
 pixela_endpoint = "https://pixe.la/v1/users"
 users_params = {
@@ -11,8 +11,6 @@ users_params = {
     "notMinor": "yes",
 }
 
-#response = requests.post(url = pixela_endpoint, json = users_params)
-#print(response.text)
 
 graph_endpoint = f"{pixela_endpoint}/amaan/graphs"
 

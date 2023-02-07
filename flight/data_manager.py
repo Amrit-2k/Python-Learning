@@ -1,6 +1,6 @@
 import requests
-SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/be64346ee3d1115d4ff84148f53ae7c0/copyOfFlightDeals/prices"
-SHEETY_USERS_API = "https://api.sheety.co/be64346ee3d1115d4ff84148f53ae7c0/copyOfFlightDeals/users"
+SHEETY_PRICES_ENDPOINT = ""
+SHEETY_USERS_API = ""
 class DataManager:
     #This class is responsible for talking to the Google Sheet.
     

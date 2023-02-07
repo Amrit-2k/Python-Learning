@@ -1,12 +1,12 @@
 import smtplib
 #gmail account
-MY_EMAIL = 'pythontester630@gmail.com'
-MY_PASSWORD = 'tupdglgcdpnhohme'
+MY_EMAIL = ""
+MY_PASSWORD = ""
 
 
 #yahoo account
-yahoo_username = 'amritmann1@yahoo.com'
-yahoo_password = 'Raman123'
+yahoo_username = ""
+yahoo_password = ""
 
 import random
 import pandas
