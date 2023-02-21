@@ -43,3 +43,7 @@ screen.exitonclick()
 #   for each line in txt file
 #       if line is in list
     
+#unistall pandas
+#pip install pandas
+#pip install turtle
+#pip install pandas
